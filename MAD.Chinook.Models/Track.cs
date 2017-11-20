@@ -13,6 +13,7 @@ namespace MAD.Chinook.Models
         public int GenreId { get; set; }
         public string Composer { get; set; }
         public int Milliseconds { get; set; }
+        public int Bytes { get; set; }
         public decimal UnitPrice { get; set; }
 
 

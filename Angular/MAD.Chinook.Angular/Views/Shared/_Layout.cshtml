@@ -36,6 +36,11 @@
                     <li><a ng-if="vm.validate()" ui-sref="employee" ui-sref-active="active">Employee</a></li>
                     <li><a ng-if="vm.validate()" ui-sref="invoice" ui-sref-active="active">Invoice</a></li>
                     <li><a ng-if="vm.validate()" ui-sref="invoiceLine" ui-sref-active="active">InvoiceLine</a></li>
+                    <li><a ng-if="vm.validate()" ui-sref="mediaType" ui-sref-active="active">MediaType</a></li>
+                    <li><a ng-if="vm.validate()" ui-sref="playlist" ui-sref-active="active">Playlist</a></li>
+                    <li><a ng-if="vm.validate()" ui-sref="genre" ui-sref-active="active">Genre</a></li>
+                    <li><a ng-if="vm.validate()" ui-sref="album" ui-sref-active="active">Album</a></li>
+                    <li><a ng-if="vm.validate()" ui-sref="track" ui-sref-active="active">Track</a></li>
 
                 </ul>
             </div>
@@ -96,6 +101,28 @@
         <script src="~/app/private/invoiceLine/directives/invoice-line-card/invoice.line.card.js"></script>
         <script src="~/app/private/invoiceLine/directives/invoice-line-form/invoice.line.form.js"></script>
         <script src="~/app/private/invoiceLine/invoice.line.controller.js"></script>
+
+        <script src="~/app/private/mediaType/directives/media-type-card/media.type.card.js"></script>
+        <script src="~/app/private/mediaType/directives/media-type-form/media.type.form.js"></script>
+        <script src="~/app/private/mediaType/media.type.controller.js"></script>
+
+        
+        <script src="~/app/private/playlist/directives/playlist-card/playlist.card.js"></script>
+        <script src="~/app/private/playlist/directives/playlist-form/playlist.form.js"></script>
+        <script src="~/app/private/playlist/playlist.controller.js"></script>
+
+
+        <script src="~/app/private/genre/directives/genre-card/genre.card.js"></script>
+        <script src="~/app/private/genre/directives/genre-form/genre.form.js"></script>
+        <script src="~/app/private/genre/genre.controller.js"></script>
+
+        <script src="~/app/private/album/directives/album-card/album.card.js"></script>
+        <script src="~/app/private/album/directives/album-form/album.form.js"></script>
+        <script src="~/app/private/album/album.controller.js"></script>
+
+        <script src="~/app/private/track/directives/track-card/track.card.js"></script>
+        <script src="~/app/private/track/directives/track-form/track.form.js"></script>
+        <script src="~/app/private/track/track.controller.js"></script>
 
 
     </environment>

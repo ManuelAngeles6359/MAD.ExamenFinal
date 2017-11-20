@@ -193,3 +193,177 @@ body footer {
         padding-bottom: 1.3rem;
     }
 }
+
+
+
+
+
+.media-type-card {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: .5rem;
+    margin-top: .5rem;
+    height: 100px;
+}
+
+@media (min-width: 768px) {
+    .media-type-card {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        height: 100px;
+    }
+}
+
+.media-type-card .buttons-controls {
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .media-type-card .buttons-controls {
+        padding-bottom: 1.3rem;
+    }
+}
+
+
+
+
+
+.playlist-card {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: .5rem;
+    margin-top: .5rem;
+    height: 100px;
+}
+
+@media (min-width: 768px) {
+    .playlist-card {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        height: 100px;
+    }
+}
+
+.playlist-card .buttons-controls {
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .playlist-card .buttons-controls {
+        padding-bottom: 1.3rem;
+    }
+}
+
+
+
+
+.genre-card {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: .5rem;
+    margin-top: .5rem;
+    height: 100px;
+}
+
+@media (min-width: 768px) {
+    .genre-card {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        height: 100px;
+    }
+}
+
+.genre-card .buttons-controls {
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .genre-card .buttons-controls {
+        padding-bottom: 1.3rem;
+    }
+}
+
+
+
+
+.album-card {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: .5rem;
+    margin-top: .5rem;
+    height: 120px;
+}
+
+@media (min-width: 768px) {
+    .album-card {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        height: 140px;
+    }
+}
+
+.album-card .buttons-controls {
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .album-card .buttons-controls {
+        padding-bottom: 1.3rem;
+    }
+}
+
+
+
+
+
+
+.track-card {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: .5rem;
+    margin-top: .5rem;
+    height: 370px;
+}
+
+@media (min-width: 768px) {
+    .track-card {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        height: 390px;
+    }
+}
+
+.track-card .buttons-controls {
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .track-card .buttons-controls {
+        padding-bottom: 1.3rem;
+    }
+}

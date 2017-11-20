@@ -35,6 +35,26 @@
                 url: "/invoiceLine",
                 templateUrl: 'app/private/invoiceLine/index.html'
             })
+            .state("mediaType", {
+                url: "/mediaType",
+                templateUrl: 'app/private/mediaType/index.html'
+            })
+            .state("playlist", {
+                url: "/playlist",
+                templateUrl: 'app/private/playlist/index.html'
+            })
+            .state("genre", {
+                url: "/genre",
+                templateUrl: 'app/private/genre/index.html'
+            })
+            .state("album", {
+                url: "/album",
+                templateUrl: 'app/private/album/index.html'
+            })
+            .state("track", {
+                url: "/album",
+                templateUrl: 'app/private/track/index.html'
+            })
             .state("otherwise", {
                 url: "/",
                 templateUrl: "app/home.html"

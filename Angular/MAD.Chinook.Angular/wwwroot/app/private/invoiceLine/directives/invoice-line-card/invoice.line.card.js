@@ -7,6 +7,7 @@
             restrict: 'E',
             transclude: true,
             scope: {
+                invoiceLineId: '@',
                 invoiceId: '@',
                 trackId: '@',
                 unitPrice: '@',
