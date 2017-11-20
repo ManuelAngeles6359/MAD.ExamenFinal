@@ -370,10 +370,12 @@ GO
 
 
 
+
 /*
 				Carga inicial
 */
 
 Insert Into [dbo].[User] Values ('mad@gmail.com','Manuel','Angeles','12345678','1')
 Go
+
 
