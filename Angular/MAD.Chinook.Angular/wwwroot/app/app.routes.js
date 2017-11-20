@@ -23,6 +23,18 @@
                 url: "/artist",
                 templateUrl: 'app/private/artist/index.html'
             })
+            .state("employee", {
+                url: "/employee",
+                templateUrl: 'app/private/employee/index.html'
+            })
+            .state("invoice", {
+                url: "/invoice",
+                templateUrl: 'app/private/invoice/index.html'
+            })
+            .state("invoiceLine", {
+                url: "/invoiceLine",
+                templateUrl: 'app/private/invoiceLine/index.html'
+            })
             .state("otherwise", {
                 url: "/",
                 templateUrl: "app/home.html"

@@ -30,7 +30,7 @@ namespace MAD.Chinook.Repositories.Dapper.Chinook
                 parameters.Add("@startRow", startRow);
                 parameters.Add("@endRow", endRow);
 
-                return connection.Query<Invoice>("dbo.CustomerPagedList",
+                return connection.Query<Invoice>("dbo.InvoicePagedList",
                         parameters,
                         commandType:
                         System.Data.CommandType.StoredProcedure);

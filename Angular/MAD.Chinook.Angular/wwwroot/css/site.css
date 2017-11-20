@@ -88,3 +88,108 @@ body footer {
         padding-bottom: 1.3rem;
     }
 }
+
+
+
+
+
+.employee-card {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: .5rem;
+    margin-top: .5rem;
+    height: 400px;
+}
+
+@media (min-width: 768px) {
+    .employee-card {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        height: 410px;
+    }
+}
+
+.employee-card .buttons-controls {
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .employee-card .buttons-controls {
+        padding-bottom: 1.3rem;
+    }
+}
+
+
+
+
+.invoice-line-card {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: .5rem;
+    margin-top: .5rem;
+    height: 170px;
+}
+
+@media (min-width: 768px) {
+    .invoice-line-card {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        height: 160px;
+    }
+}
+
+.invoice-line-card .buttons-controls {
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .invoice-line-card .buttons-controls {
+        padding-bottom: 1.3rem;
+    }
+}
+
+
+
+
+
+
+.invoice-card {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: .5rem;
+    margin-top: .5rem;
+    height: 270px;
+}
+
+@media (min-width: 768px) {
+    .invoice-card {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        height: 300px;
+    }
+}
+
+.invoice-card .buttons-controls {
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .invoice-card .buttons-controls {
+        padding-bottom: 1.3rem;
+    }
+}

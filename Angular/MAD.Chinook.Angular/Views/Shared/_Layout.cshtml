@@ -33,6 +33,9 @@
                     <li><a ng-if="vm.validate()" ng-click="vm.logout()" href="#" ui-sref-active="active">Logout</a></li>
                     <li><a ng-if="vm.validate()" ui-sref="customer" ui-sref-active="active">Customer</a></li>
                     <li><a ng-if="vm.validate()" ui-sref="artist" ui-sref-active="active">Artist</a></li>
+                    <li><a ng-if="vm.validate()" ui-sref="employee" ui-sref-active="active">Employee</a></li>
+                    <li><a ng-if="vm.validate()" ui-sref="invoice" ui-sref-active="active">Invoice</a></li>
+                    <li><a ng-if="vm.validate()" ui-sref="invoiceLine" ui-sref-active="active">InvoiceLine</a></li>
 
                 </ul>
             </div>
@@ -81,6 +84,18 @@
         <script src="~/app/private/artist/directives/artist-form/artist.form.js"></script>
         <script src="~/app/private/artist/artist.controller.js"></script>
 
+        <script src="~/app/private/employee/directives/employee-card/employee.card.js"></script>
+        <script src="~/app/private/employee/directives/employee-form/employee.form.js"></script>
+        <script src="~/app/private/employee/employee.controller.js"></script>
+
+        <script src="~/app/private/invoice/directives/invoice-card/invoice.card.js"></script>
+        <script src="~/app/private/invoice/directives/invoice-form/invoice.form.js"></script>
+        <script src="~/app/private/invoice/invoice.controller.js"></script>
+
+
+        <script src="~/app/private/invoiceLine/directives/invoice-line-card/invoice.line.card.js"></script>
+        <script src="~/app/private/invoiceLine/directives/invoice-line-form/invoice.line.form.js"></script>
+        <script src="~/app/private/invoiceLine/invoice.line.controller.js"></script>
 
 
     </environment>
