@@ -9,13 +9,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{D2C91CBC-F88
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAD.Chinook.WebApi", "MAD.Chinook.WebApi\MAD.Chinook.WebApi.csproj", "{4EA86A71-2F13-42A4-A50B-5AAD7927146E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAD.Chinook.Models", "MAD.Chinook.Models\MAD.Chinook.Models.csproj", "{D02C751F-FB20-40BA-8F31-33DAA23DA49B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAD.Chinook.Models", "MAD.Chinook.Models\MAD.Chinook.Models.csproj", "{D02C751F-FB20-40BA-8F31-33DAA23DA49B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAD.Chinook.Repositories", "MAD.Chinook.Repositories\MAD.Chinook.Repositories.csproj", "{BD22161D-5236-4F76-BB76-9BCA44B26BED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAD.Chinook.Repositories", "MAD.Chinook.Repositories\MAD.Chinook.Repositories.csproj", "{BD22161D-5236-4F76-BB76-9BCA44B26BED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAD.Chinook.Repositories.Dapper", "MAD.Chinook.Repositories.Dapper\MAD.Chinook.Repositories.Dapper.csproj", "{30378516-D9AB-44B8-87BB-1F1AAA672CC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAD.Chinook.Repositories.Dapper", "MAD.Chinook.Repositories.Dapper\MAD.Chinook.Repositories.Dapper.csproj", "{30378516-D9AB-44B8-87BB-1F1AAA672CC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAD.Chinook.UnitOfWork", "MAD.Chinook.UnitOfWork\MAD.Chinook.UnitOfWork.csproj", "{AB292729-D3FD-419D-A9A8-EB8CA59BAFE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAD.Chinook.UnitOfWork", "MAD.Chinook.UnitOfWork\MAD.Chinook.UnitOfWork.csproj", "{AB292729-D3FD-419D-A9A8-EB8CA59BAFE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{89A339CD-70C9-4083-9BC8-95C351229D7D}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts.sql = Scripts.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
